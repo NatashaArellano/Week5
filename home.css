@@ -53,7 +53,7 @@ input[type=text], select {
 }
 
 .sectionone {
-    width: 50px;
+    width: 50%;
 }
 
 
@@ -64,12 +64,19 @@ input[type=text], select {
 }
 
 .sectiontwo-left {
+    flex: 60%;
     text-align: center;
     font-size: 20px;
 }
 
 .sectiontwo-right {
+    flex: 40%;
     padding: 2em;
+}
+
+.sectiontwo-right img {
+    padding-left: 20px;
+    width: 50%;
 }
 
 .button {
