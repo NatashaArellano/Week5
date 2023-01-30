@@ -1,0 +1,169 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family: "arial";
+}
+
+.container  {
+    padding-left: 15em;
+    padding-right: 15em;
+    background-color: black;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3a3838;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top-navigation-center {
+    display: flex;
+    gap: 6em;
+}
+
+.top-navigation-center a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.top-navigation-center a:active {
+    text-decoration: underline;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 2em;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+.sectionone img {
+    width: 100%;
+}
+
+
+.sectiontwo {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+  }
+
+.grid-container > div {
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }  
+
+/* Column container */
+
+.sectionthree {
+    background-color: white;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+.side h2 {
+    text-align: center;
+    color: #036de9;
+    padding: 25px 50px;
+}
+
+.side h4 {
+    padding-left: 30%;
+}
+
+.side p {
+    padding: 3px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+.main1 {
+    display:flex;
+    padding: 10px;
+}
+
+.sectiontwo-left {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sectiontwo-left img {
+    width: 150px;
+    height: 200px;
+}
+
+.sectiontwo-right {
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.main h4 {
+    color: #036de9;
+}
+
+.button {
+    background-color: #036de9;
+    color: lightgray;
+    padding: 14px 40px;
+    border-radius: 8px;
+}
+
+
+/*footer*/
+
+.footer {
+    display: flexbox;
+    text-align: center;
+    gap: 2em;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+}
