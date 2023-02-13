@@ -6,20 +6,20 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="./CSS/home.css"/>
     <title>Home</title>
 
   </head>
 
   <body>
 
-    <div class="container">
+    <header>
 
-      <div class="top-navigation">
+      <nav class="top-navigation">
 
         <div class ="top-navigation-left">
-          <img src="./logo.png">
+          <img src="./images/logo.png">
         </div>
 
        <div class="top-navigation-center">
@@ -31,39 +31,36 @@
 
         <div class="top-navigation-right">
           <input type="text" placeholder="SEARCH e-BOOKS" name="search">
-          <a href="myaccount.html"><img border="0" alt="" src="./PersonIcon.png" width="40" height="40"></a>
+          <a href="myaccount.html"><img alt="" src="./images/PersonIcon.png" width="40" height="40"></a>
         </div>
 
-      </div> <!--end top navigation-->
+      </nav>
 
-      <div class="sectionone">
-          <img src="./LibraryBackground.png">
-      </div>  <!--end section one library background-->
-      
-      <div class="sectiontwo">
+    </header>
 
-        <div class="sectiontwo-left">
-          <h1>Knowledge Starts Here</h1><br><br>
-          <p>Welcome to e-reads! We are a digital resource for readers and researchers, offering free access to a vast collection of books, manuscripts, and other material.</p><br><br>
-          <button class="button">START READING</button>
-        </div>
-        
-        <div class="sectiontwo-right">
-        <img src="./Background2.png"/>
-        </div>
+    <section class="container">
 
-      </div> <!--end section two with knowledge starts here-->
+      <div class="text-content">
+        <h1>Knowledge Starts Here</h1>
+        <p>Welcome to e-reads! We are a digital resource for readers and researchers, offering free access to a vast collection of books, manuscripts, and other material.</p><br><br>
+        <button class="button">START READING</button>
+      </div>
 
-      <footer class="footer">
-        Privacy | Copyright | Term of Use & Licences | Authors | Publishers 
-      </footer> 
+      <div class="image-content">
+        <img src="./images/Background2.png"/>
+      </div>
 
-    </div> <!--end main container-->
+    </section>
 
- 
+    <footer class="footer">
+        <a href="#">Privacy</a>|
+        <a href="#">Copyright</a>|
+        <a href="#">Term of Use & Licences</a>|
+        <a href="#">Authors</a>|
+        <a href="#">Publishers</a>
+    </footer> 
+
 
   </body>
-
-
   
 </html>

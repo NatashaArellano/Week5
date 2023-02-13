@@ -1,0 +1,142 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family: "arial";
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3a3838;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top-navigation-center {
+    display: flex;
+    gap: 6em;
+}
+
+.top-navigation-center a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+.top-navigation-center a:active {
+    text-decoration: underline;
+    max-width: 100%;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 2em;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.image-content {
+    width: 50%;
+}
+
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 767px)
+{
+
+    .top-navigation, .top-navigation-center, .top-navigation-right{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+   .container
+    {
+         background-color: #d9d9d9;
+         flex-direction: column;
+         gap: 3rem;
+         align-items: center;
+         justify-content: center;
+     }
+    .image-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px)
+{
+
+}
