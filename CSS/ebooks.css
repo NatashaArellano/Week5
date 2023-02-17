@@ -6,10 +6,12 @@
     font-family: "arial";
 }
 
-.container  {
-    padding-left: 15em;
-    padding-right: 15em;
-    background-color: black;
+header {
+    background-image: url(../images/ebooks.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
 
 .top-navigation {
@@ -32,11 +34,12 @@
 
 .top-navigation-center a {
     text-decoration: none;
-    color: lightgray;
+    color: #d9d9d9;
 }
 
 .top-navigation-center a:active {
     text-decoration: underline;
+    max-width: 100%;
 }
 
 .top-navigation-right {
@@ -53,15 +56,8 @@ input[type=text], select {
 }
 
 
-.sectionone img {
-    width: 100%;
-}
 
 
-.sectiontwo {
-   display: flex;
-   flex-wrap: nowrap;
-}
 
 .grid-container {
     display: grid;
@@ -189,6 +185,7 @@ input[type=text], select {
          align-items: center;
          justify-content: center;
      }
+     
     .image-content {
         width: 100%;
         display: flex;

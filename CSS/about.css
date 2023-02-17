@@ -98,6 +98,10 @@ input[type=text], select {
         gap: 2rem;
     }
 
+    .text-content p {
+        font-size: 20px;
+    }
+
    .container
     {
          background-color: #d9d9d9;
@@ -106,6 +110,7 @@ input[type=text], select {
          align-items: center;
          justify-content: center;
      }
+     
     .image-content {
         width: 100%;
         display: flex;
